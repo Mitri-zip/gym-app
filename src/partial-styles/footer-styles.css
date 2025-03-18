@@ -1,0 +1,37 @@
+
+.closing-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0));
+  width: 100%; 
+  height: auto;
+  padding: 5px;
+}
+
+@media (max-width: 47rem) {
+  .closing-layout {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+
+.information-about{
+  flex: 1;
+}
+
+.closing-header {
+  font-size: 1.1rem;
+  color: white;
+  font-family: 'jockey one',sans-serif;
+  letter-spacing: .2em;
+}
+
+.closing-info  {
+  font-size: 0.8rem;
+  color: white;
+  font-family: 'enriqueta',serif;
+  letter-spacing: normal;
+  line-height: 1.3rem;
+}

@@ -1,0 +1,134 @@
+.basicContainer {
+    background-color: #F4F4F4;
+    padding: 2rem;
+    width: 58vw;
+    margin: 0 auto;
+    margin-top: 7rem;
+  }
+  
+  .basicHeader {
+    background-color: #AF98DA;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .basicTitle {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  
+  .basicContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .basicOrderItem, .basicSummary {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 96.5%;
+  }
+  
+  .basicItemDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .basicItemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .basicItemName {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .basicItemPrice {
+    font-weight: bold;
+  }
+  
+  .basicDeliveryOptions {
+    width: 100%;
+  }
+  
+  .basicDeliveryOptions h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .basicDeliveryOption {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  
+  .basicDeliveryOption label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .basicPlaceOrderButton {
+    background-color: #AF98DA;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .basicPlaceOrderButton:hover {
+    background-color: #C726ED;;
+    transform: translateY(-2px);
+  }
+  
+  .basicPlaceOrderButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(175, 152, 218, 0.5);
+  }
+  
+  .basicSummaryRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .basicTotalRow {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .basicHeader, .basicTitle, .basicOrderItem, .basicSummary, .basicDeliveryOptions {
+      padding: 1rem;
+    }
+  
+    .basicItemImage {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .basicItemDetails {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

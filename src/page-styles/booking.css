@@ -1,0 +1,108 @@
+.classes-layout {
+    margin: 130px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 4px solid #AF98DA;
+    box-shadow: 2px 5px 10px 3px rgba(0,0,0,0.4);
+  }
+  
+  .booking-image-layout {
+    flex: 1;
+    text-align: end;
+  }
+  
+  .booking-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .schedule-booking-layout {
+    display: block;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .class-schedule {
+    text-align: left;
+    margin-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  
+  .class-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .class-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .class-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman';
+  }
+  
+  .class-time {
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: -10px;
+  }
+  
+  .class-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+  }
+  
+  .book-button {
+    margin-left: 10px;
+    padding: 0.7vw 1.2vw;
+    background-color: #AF98DA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  .email-container {
+    margin-top: 10px;
+  }
+  
+  .email-input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .submit-button {
+    padding: 5px 10px;
+    background-color: #AF98DA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message {
+    color: #AF98DA;
+    margin-top: 1rem;
+    font-family: 'Heebo', sans-serif;
+  }
+  

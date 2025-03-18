@@ -1,0 +1,27 @@
+.transformationsLayout {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(243, 243, 243);
+    column-gap: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .transformationContainer {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    margin-top: 3vw;
+  }
+  
+  .transformationsLayoutMedia {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+  
+  .transformImages {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  

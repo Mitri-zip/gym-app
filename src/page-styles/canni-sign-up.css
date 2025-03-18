@@ -1,0 +1,92 @@
+.highvibes-signup-margin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    background-color: black;
+    padding: 2rem 1rem;
+  }
+  
+  .signup-msg-layout {
+    flex: 1;
+  }
+  
+  .canni-title {
+    font-family: 'Georgia', serif;
+    color: #C726ED;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  
+  .canni-msg {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .signup-input-layout {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .canni-input-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .canni-input {
+    width: 220px;
+    padding: 10px 1px 10px 20px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Enriqueta', serif;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .label {
+    position: absolute;
+    top: -1.5rem;
+    left: 1rem;
+    font-family: 'Georgia', serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+  }
+  
+  .canni-signup {
+    background-color: #C726ED;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .canni-signup:hover {
+    background-color: #AF98DA;
+    transform: translateY(-2px);
+    
+  }
+  

@@ -1,0 +1,81 @@
+/* EmmyAwards.css */
+.layout {
+    padding: 1rem;
+  }
+  
+  .homePicMargin {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 50vw;
+    background-color: #AF98DA;
+    margin: auto;
+    margin-top: 8rem;
+  }
+  
+  .michiPic {
+    height: 50vw;
+  }
+  
+  .emmySection {
+    position: absolute;
+    top: 7vw;
+    left: 0px;
+    display: block;
+    text-align: center;
+    width: 50vw;
+    height: 43vw;
+    background-color: white;
+  }
+  
+  .kbLogoPic {
+    width: 28vw;
+  }
+  
+  .kbLogoLayout {
+    margin-bottom: -2vw;
+  }
+  
+  .emmyMention {
+    font-family: 'Raleway, sans-serif';
+    font-weight: 800;
+    font-size: 2.7vw;
+    letter-spacing: 0.5vw;
+  }
+  
+  .emmyMentionMargin {
+    margin-bottom: -2vw;
+  }
+  
+  .introEmmySec {
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 1.8em;
+    letter-spacing: 0em;
+  }
+  
+  .introEmmyMargin {
+    margin-bottom: -0.4vw;
+  }
+  
+  .bookClass {
+    background-color: #AF98DA;
+    color: white;
+    padding: 1vw;
+    border: none;
+    font-size: 1.4vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    
+  }
+  .bookClass:hover {
+    background-color: #C726ED;
+    transform: translateY(-2px);
+  }
+  

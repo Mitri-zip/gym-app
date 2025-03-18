@@ -1,0 +1,106 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex: 1;
+  height: 3.7rem;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  align-items: center;
+  z-index: 1;
+  padding: 0 1rem;
+}
+
+@media (max-width: 60rem) {
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.top-header-line,
+.bottom-header-line {
+  width: 100%;
+  max-width: 48vw;
+  margin: 0;
+}
+@media (max-width: 60rem) {
+  .top-header-line,
+  .bottom-header-line {
+    max-width: 100vw; /* Adjust max-width */
+  }
+}
+
+
+.options-text-margin {
+  display: flex;
+  width: 40rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+}
+
+.options-text {
+  color: white;
+  font-family: 'Enriqueta', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin: 0; /* Add this line */
+  padding: 0.3rem 0; /* Adjust padding to create space around the text */
+}
+
+@media (max-width: 60rem) {
+  .options-text {
+    font-size: 0.8rem; /* Adjust font size */
+    padding: 0.2rem 0; /* Adjust padding */
+  }
+}
+
+.options-text:hover {
+  color: #C726ED;
+}
+
+.drop-down {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 12rem;
+  z-index: 1;
+}
+
+.links {
+  color: black;
+  padding: 0.8rem 1.2rem;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.links:hover {
+  background-color: #ddd;
+  color: #C726ED;
+}
+
+.drop-down:hover .dropdown-content {
+  display: block;
+}
+
+.about-me-layout {
+  margin-left: 3vw;
+}
+
+.about-me-pic {
+  width: 3.7vw;
+  border-radius: 50%;
+  background: transparent;
+}

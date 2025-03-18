@@ -1,0 +1,46 @@
+.offer-title {
+    font-size: 4rem;
+    font-family: 'Enriqueta', serif;
+    color: #C726ED;
+  }
+  
+  .offer-desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+  }
+  
+  .offer-margin {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    border: 2px solid #C726ED;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-margin:hover {
+    transform: translateY(-5px);
+  }
+  
+  .offer-header {
+    font-size: 2rem;
+    font-family: 'Enriqueta', serif;
+    color: #C726ED;
+    margin-bottom: 1rem;
+  }
+  
+  .offer-desc-message {
+    font-size: 1rem;
+    font-family: 'Jockey One', serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }

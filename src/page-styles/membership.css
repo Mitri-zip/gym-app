@@ -1,0 +1,81 @@
+.price-intro {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .offer-title {
+    font-size: 4rem;
+    font-family: 'Enriqueta', serif;
+    color: #C726ED;
+  }
+  
+  .offer-desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+  }
+  
+  .offer-margin {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    border: 2px solid #C726ED;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-margin:hover {
+    transform: translateY(-5px);
+  }
+  
+  .offer-header {
+    font-size: 2rem;
+    font-family: 'Enriqueta', serif;
+    color: #C726ED;
+    margin-bottom: 1rem;
+  }
+  
+  .offer-desc-message {
+    font-size: 1rem;
+    font-family: 'Jockey One', serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  .offer-button-layout {
+    margin-top: 1rem;
+  }
+  
+  .offer-button {
+    background-color: #AF98DA;
+    color: white;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offer-button:hover {
+    background-color: #C726ED;
+  }
+  
+  @media (max-width: 768px) {
+    .offer-desc {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

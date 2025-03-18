@@ -1,0 +1,33 @@
+.highvibes-page-layout {
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding: 2rem 1rem;
+  }
+  
+  .highvibe-intro-container {
+    margin-top: 7vw;
+  }
+  
+  .high-start {
+    font-size: 2vw;
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+  }
+  
+  .title {
+    letter-spacing: 0.3em;
+    color: #C726ED;
+    font-size: 8vw;
+    font-weight: 800;
+    font-family: 'Carme', sans-serif;
+  }
+  
+  .high-para {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Enriqueta', serif;
+    line-height: 2rem;
+    margin: 1rem 0;
+  }
+  

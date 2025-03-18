@@ -1,0 +1,58 @@
+.people-vision-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: black;
+    padding: 2rem 1rem;
+  }
+  
+  .highvibes-img-layout {
+    flex: 1;
+    border: 0.1rem solid white;
+  }
+  
+  .high-vibes-image {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .book-class-container {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .vision {
+    color: #C726ED;
+    font-size: 5rem;
+    font-family: 'Enriqueta', serif;
+    margin-bottom: 3vw;
+  }
+  
+  .vision-msg {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Enriqueta', serif;
+    line-height: 2.5rem;
+    margin-bottom: 3vw;
+  }
+  
+  .class-button {
+    color: black;
+    background-color: #C726ED;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+  .class-button:hover {
+    background-color: #AF98DA;
+    transform: translateY(-2px);
+  }
+  
